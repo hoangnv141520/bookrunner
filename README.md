@@ -16,9 +16,8 @@ bookrunner/
 
 ## ⚡️ Công nghệ sử dụng
 
-- **Frontend**: ReactJS, TypeScript, TailwindCSS/Material UI, Axios, React Router
-- **Backend**: ExpressJS, TypeScript, Node.js, MySQL/MongoDB, JWT cho authentication
-- **Khác**: dotenv cho quản lý biến môi trường, FFmpeg nếu xử lý video
+- **Frontend**: ReactJS, TypeScript, TailwindCSS, Axios, React Router
+- **Backend**: ExpressJS, TypeScript, Node.js, MySQL, JWT cho authentication
 
 ---
 
