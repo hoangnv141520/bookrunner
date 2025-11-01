@@ -5,12 +5,13 @@ BookRunner là một ứng dụng quản lý sách (Book Management) được x�
 ---
 
 ## 📂 Cấu trúc dự án
+```
 bookrunner/
 ├─ bookrunner-fe/ # Frontend (ReactJS + TypeScript)
 ├─ bookrunner-be/ # Backend (ExpressJS + TypeScript)
 ├─ package.json
 └─ README.md
-
+```
 ---
 
 ## ⚡️ Công nghệ sử dụng
@@ -33,18 +34,19 @@ npm run dev            # chạy server ở mode development
 
 ```
 
-Frontend
+## Frontend
+```
 cd bookrunner-fe
 npm install
 npm start              # chạy frontend trên localhost:3000
-
-3. Kết nối
+```
+## Kết nối
 
 Backend: http://localhost:5000 (có thể thay đổi trong .env)
 
 Frontend sẽ gọi API backend qua URL trên.
 
-📝 Tính năng chính
+## 📝 Tính năng chính
 
 Quản lý sách: thêm/sửa/xóa sách
 
@@ -56,20 +58,19 @@ Upload hình ảnh bìa sách
 
 Hiển thị danh sách sách với phân trang
 
-(Tùy chọn) Streaming video nếu mở rộng
-
-🔧 Cấu hình môi trường
+## 🔧 Cấu hình môi trường
 
 Backend (bookrunner-be/.env):
-
+```
 PORT=5000
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=password
 DB_NAME=bookrunner
 JWT_SECRET=your_jwt_secret
-
+```
 
 Frontend (bookrunner-fe/.env):
-
+```
 REACT_APP_API_URL=http://localhost:5000
+```
